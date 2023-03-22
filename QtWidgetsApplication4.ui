@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QtWidgetsApplication4Class</class>
+ <widget class="QWidget" name="QtWidgetsApplication4Class">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1283</width>
+    <height>764</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QtWidgetsApplication4</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>959</x>
+     <y>10</y>
+     <width>343</width>
+     <height>509</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <layout class="QGridLayout" name="mainLayout">
+    <item row="9" column="1">
+     <widget class="QPushButton" name="BezierBtn">
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Bezier Curve</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QPushButton" name="ConvexHullDC">
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Convex Hull(DevideAndConquer)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="14" column="0" colspan="2">
+     <widget class="QTextEdit" name="tPointText">
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="0">
+     <widget class="QPushButton" name="DrawStar">
+      <property name="text">
+       <string>DrawRegularStar</string>
+      </property>
+     </widget>
+    </item>
+    <item row="16" column="0">
+     <widget class="QPushButton" name="SaveTextBtn">
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Save</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QPushButton" name="CardinalCurve">
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Cardinal Curve</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="DrawCircle">
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Draw Circle</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="0">
+     <widget class="QPushButton" name="DrawRec">
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>DrawRec</string>
+      </property>
+     </widget>
+    </item>
+    <item row="18" column="0">
+     <widget class="QPushButton" name="DisableUpdate">
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>DisableUpdate</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QPushButton" name="TriangulationZ">
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Triangulation(Zigzag)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="1">
+     <widget class="QPushButton" name="DrawHexagen">
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>DrawHexagen</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="0">
+     <widget class="QPushButton" name="FenceFillW">
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Fence Fill(Wind)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QPushButton" name="PolyInterCurve">
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Draw Curve</string>
+      </property>
+     </widget>
+    </item>
+    <item row="16" column="1">
+     <widget class="QPushButton" name="OKBtn">
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>ok</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QPushButton" name="FillPolygonW">
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Fill Polygon(Wind)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QPushButton" name="ConvexHullJ">
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Convex Hull(JarvisMarch)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QPushButton" name="DrawLineBtn">
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Draw Line</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="DrawEllipse">
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Draw Ellipse</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="TriangleBtn">
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Draw Triangle</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QPushButton" name="FenceFill">
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Fence Fill(OddEven)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QPushButton" name="FillPolygon">
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Fill Polygon(OddEven)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="1">
+     <widget class="QPushButton" name="BazierAscend">
+      <property name="text">
+       <string>Bazier Ascend</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="0">
+     <widget class="QPushButton" name="DragPoint">
+      <property name="text">
+       <string>Drag</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="1">
+     <widget class="QPushButton" name="AddPoint">
+      <property name="text">
+       <string>Add Point</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QGroupBox" name="TransformControl">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>0</y>
+     <width>311</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="title">
+    <string>TransformControl</string>
+   </property>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>301</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+    <layout class="QGridLayout" name="TransformLayout">
+     <item row="14" column="2">
+      <widget class="QPushButton" name="SetRotateCenter">
+       <property name="text">
+        <string>SetRotateCenter</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2" rowspan="2">
+      <widget class="QPushButton" name="TransormBtn">
+       <property name="font">
+        <font>
+         <pointsize>7</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Tranform</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="0" rowspan="2">
+      <widget class="QLabel" name="label_3">
+       <property name="font">
+        <font>
+         <pointsize>7</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>angle:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0" rowspan="5">
+      <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <pointsize>7</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>y:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0" rowspan="4">
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <pointsize>7</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>x:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2" rowspan="2">
+      <widget class="QPushButton" name="ScaleBtn">
+       <property name="font">
+        <font>
+         <pointsize>7</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Scale</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="2" rowspan="2">
+      <widget class="QPushButton" name="Shear">
+       <property name="text">
+        <string>Shear</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2" rowspan="3">
+      <widget class="QPushButton" name="RotateBtn">
+       <property name="font">
+        <font>
+         <pointsize>7</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Rotate</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="2">
+      <widget class="QPushButton" name="SetCenter">
+       <property name="font">
+        <font>
+         <pointsize>7</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>SetAtCenter</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="1" rowspan="2">
+      <widget class="QTextEdit" name="rotateText"/>
+     </item>
+     <item row="5" column="1" rowspan="5">
+      <widget class="QTextEdit" name="transformTexty"/>
+     </item>
+     <item row="1" column="1" rowspan="4">
+      <widget class="QTextEdit" name="transformTextx"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
